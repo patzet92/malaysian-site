@@ -67,3 +67,26 @@ body{
     display: flex;
     margin-left: -160px;
 }
+
+.slider_title {
+    display: flex;
+    width: 554px;
+    height: 32px;
+}
+
+.services {
+    width: 1400px;
+    height: 553px;
+    display: flex;
+}
+
+.serv_title {
+    width: 1400px;
+    height: 227px;
+}
+
+.serv_menu {
+    width: 1400px;
+    height: 326px;
+}
+
