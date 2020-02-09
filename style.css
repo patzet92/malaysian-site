@@ -68,6 +68,7 @@ body{
 .img_slider_bg{
     width: 896px;
     height: 425px;
+    z-index: 1;
 }
 
 
@@ -171,4 +172,38 @@ body{
     font-family: "OpenSans", sans-serif;
     color: rgb(255, 255, 255);
     text-align: center;
+}
+
+button {
+    border-radius: 2px;
+    background-color: rgb(234, 91, 88);
+    width: 88px;
+    height: 33px;  
+    z-index: 44;
+    border-style: none;
+    border-radius: 5%;
+    color: white;
+    font-family: "OpenSans", sans-serif;
+    font-size: 18px;
+    text-align: center;
+}
+button p{
+    margin:0;
+}
+.work_intro {
+    display: flex;
+    width: 1400px;
+    height: 425px;
+    background-color: #7b7b7b;
+    z-index: 1;
+}
+
+.work_intro_title p{
+    display: flex;
+    z-index: 2;
+}
+
+.work_intro_sub {
+    display: flex;
+    z-index:2;
 }
