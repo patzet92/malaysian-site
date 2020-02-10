@@ -1,4 +1,4 @@
-body{
+body {
     margin: 0;
 }
 
@@ -9,8 +9,8 @@ body{
     flex-direction: column;
     justify-content: flex-start;
     background-color: #475a85;
-
 }
+
 .nav_bar {
     display: flex;
     width: 1400px;
@@ -51,38 +51,49 @@ body{
     align-items: center;
 }   
 
-.slider{
+.slider {
     width: 1400px;
     height: 470px;
     background-color: #161828;
     display: flex;
-    align-items: flex-end;
+    align-items: center;
     justify-content: space-around;
-
-
 }
-.slider:first-child {
-    z-index: 1;
 
-}
-.img_slider_bg{
+.img_slider_bg img {
     width: 896px;
     height: 425px;
     z-index: 1;
+    margin-top: 20px;
+    margin-left: 70px;
 }
 
-
+  
 .slider_title {
     width: 554px;
     height: 32px;
     color: white;
+    margin-top: 60px;
+    margin-left: -1050px;
+    font-size: 36px;
+    font-family: "OpenSans", sans-serif;
+    font-weight: bold;
+    line-height: 0.667;
+    z-index: 2;
 }
 
 .slider_description {
     width: 385px;
     height: 21px;
     color: white;
+    font-size: 24px;
+    font-family: "OpenSans", sans-serif;
+    line-height: 1;
+    margin-top: 35px;
+    margin-left: -1050px;
+    z-index: 2;
 }
+
 .button {
     background-color: tomato;
     width: 145px;
@@ -92,15 +103,14 @@ body{
     color: white;
     font-size: 18px;
     font-family: "OpenSans", sans-serif;
-    z-index: 10;
+    z-index: 2;
+    margin-top: 95px;
+    margin-left: -1050px;
 }
 
-.white_box {
-    width: 478px;
-    height: 327px;
-    background-color: white;
-    border-radius: 5%;
-    z-index: 3;
+.white_box img {
+    margin-left:-530px;
+    z-index: 5;
 }
 
 .services {
@@ -121,6 +131,7 @@ body{
     width: 1400px;
     height: 326px;
 }
+
 .serv_title {
     width: 287px;
     height: 92px;
@@ -129,18 +140,19 @@ body{
     align-items: center;
     flex-direction: column;
 }
-.main p{
+
+.main p {
     font-size: 30px;
     font-family: "OpenSans", sans-serif;
-    color: rgb(255, 255, 255);
+    color: white;
     font-weight: bold;
     margin: 0px;
 }
 
-.description p{
+.description p {
     font-size: 18px;
     font-family: "OpenSans", sans-serif;
-    color: rgb(255, 255, 255);
+    color: white;
     text-align: center;
 }
 
@@ -162,15 +174,14 @@ body{
 .box_title {
     font-size: 18px;
     font-family: "OpenSans", sans-serif;
-    color: rgb(255, 255, 255);
+    color: white;
     font-weight: bold;
-      
 }
 
-.box_description p{
+.box_description p {
     font-size: 14px;
     font-family: "OpenSans", sans-serif;
-    color: rgb(255, 255, 255);
+    color: white;
     text-align: center;
 }
 
@@ -187,23 +198,132 @@ button {
     font-size: 18px;
     text-align: center;
 }
+
 button p{
-    margin:0;
+    margin: 0;
 }
+
 .work_intro {
     display: flex;
+    align-items: center;
     width: 1400px;
     height: 425px;
     background-color: #7b7b7b;
     z-index: 1;
 }
 
-.work_intro_title p{
+.work_intro_title p {
     display: flex;
+    font-size: 48px;
+    font-family: "OpenSans", sans-serif;
+    color: white;
+    font-weight: bold;
+    line-height: 0.375;
+    text-align: center;
+    margin-left: -950px;
     z-index: 2;
 }
 
 .work_intro_sub {
     display: flex;
+    font-size: 24px;
+    font-family: "OpenSans", sans-serif;
+    color: white;
+    line-height: 0.75;
+    text-align: center;
+    margin-top: 100px;
+    margin-left: -900px;
     z-index:2;
+}
+
+.portfolio {
+    width: 1400px;
+    height: 1180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.portfolio:hover {
+    background-color: white;
+}
+
+.portfolio_title {
+    font-family: "OpenSans", sans-serif;
+    font-size: 30px;
+    color: rgb(50, 50, 50);
+    font-weight: bold;
+    line-height: 0.6;
+    text-align: center;
+}
+
+.portfolio_sub {
+        font-size: 18px;
+        line-height: 1;
+        font-weight: 100;
+}
+
+.portfolio_nav {
+    display: flex;
+    font-family: "OpenSans", sans-serif;
+    color: #a7a7a7;
+    line-height: 1;
+    
+  }
+
+.option {
+    margin-right: 10px;
+}
+
+.option:hover {
+    color: black
+}
+
+.picture_grid {
+    width: 1170px;
+    height: 620px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.pict_box {
+    height: 290px;
+    width: 368px;
+    background-color: #7b7b7b;
+}
+
+.pict_box:hover {
+    background-color: #475a85;
+}
+
+.portfolio_footer {
+    font-size: 18px;
+    font-family: "OpenSans", sans-serif;
+    color: rgb(50, 50, 50);
+    font-weight: bold;
+    line-height: 1.333;
+    text-align: center;
+}
+  
+.customer {
+    width: 1400px;
+    height: 610px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+}
+
+
+.title {
+    font-size: 30px;
+    font-family: "OpenSans", sans-serif;
+    color: rgb(50, 50, 50);
+    font-weight: bold;
+    line-height: 1;
+
+      
 }
