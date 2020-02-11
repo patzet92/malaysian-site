@@ -324,6 +324,64 @@ button p{
     color: rgb(50, 50, 50);
     font-weight: bold;
     line-height: 1;
-
-      
 }
+
+.customer_opinion {
+    display: flex;
+    width: 1127px;
+    height: 277px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.customer_sub {
+        font-size: 18px;
+        font-family: "OpenSans", sans-serif;
+        color: rgb(50, 50, 50);
+        line-height: 1.333;
+}
+
+.quote p {
+    width: 728px;
+    height: 79px;
+        font-size: 18px;
+        font-family: "OpenSans",sans-serif;
+        color: rgb(50, 50, 50);
+        line-height: 1.667;
+}
+
+.customer_name {
+        font-size: 24px;
+        font-family: "OpenSans", sans-serif;
+        color: rgb(50, 50, 50);
+        font-weight: bold;
+        line-height: 1;
+}
+
+.dots{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 134px;
+    height: 29px;
+}
+
+.dot {
+    width: 23px;
+    height: 23px;
+    border-radius: 50%;
+    background-color: #7b7b7b;
+}
+
+.dot:hover{
+    background-color: #323232;
+}
+
+
+/* .contact {
+    width: 1400px;
+    height: 1430px;
+    display: flex;
+} */
+
