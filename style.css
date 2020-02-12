@@ -269,8 +269,15 @@ button p{
     font-family: "OpenSans", sans-serif;
     color: #a7a7a7;
     line-height: 1;
-    
-  }
+}
+
+.intro_customer {
+    height: 115px;
+    display: flex;
+    flex-direction: column;
+    justify-items: space-between;
+    align-items: center;
+}
 
 .option {
     margin-right: 10px;
@@ -309,7 +316,7 @@ button p{
   
 .customer {
     width: 1400px;
-    height: 610px;
+    height: 611px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -378,10 +385,38 @@ button p{
     background-color: #323232;
 }
 
-
-/* .contact {
+.touch {
     width: 1400px;
-    height: 1430px;
+    height: 425px;
+    background-color: #7b7b7b;
     display: flex;
-} */
+}
 
+.touch_bg img {
+    z-index: 2;
+}   
+
+.touch_title {
+    font-size: 48px;
+    font-family: "OpenSans", sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 0.375;
+    text-align: center;
+    z-index: 3;
+    margin-top: 166px;
+    margin-left: -950px;
+}
+
+.touch_sub {
+    font-size: 24px;
+    font-family: "OpenSans", sans-serif;
+    color: rgb(255, 255, 255);
+    line-height: 0.75;
+    text-align: center;
+    z-index: 3;
+    margin-top: 233px;
+    margin-left: -320px;
+    
+
+}7
