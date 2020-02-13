@@ -7,7 +7,8 @@ body {
     height: 5100px;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: space-around;
+    align-items: center;
     background-color: #475a85;
 }
 
@@ -316,7 +317,7 @@ button p{
   
 .customer {
     width: 1400px;
-    height: 611px;
+    height: 685px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -417,6 +418,141 @@ button p{
     z-index: 3;
     margin-top: 233px;
     margin-left: -320px;
-    
+}
 
-}7
+.contact {
+    width: 1400px;
+    height: 190px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact_title {
+    font-size: 30px;
+    font-family: "OpenSans", sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 1;
+    text-align: center;
+    margin-bottom: -35px;
+}
+
+.contact_sub {
+    font-size: 15px;
+    font-family: "OpenSans", sans-serif;
+    color: white;
+    text-align: center;
+    font-weight: 100;
+}
+
+.last_page {
+    width: 1185px;
+    height: 400px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.address_box {
+    width: 600px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: baseline;
+}
+.address_box p{
+    font-size: 15px;
+    font-family: "OpenSans", sans-serif;
+    color: rgb(255, 255, 255);
+    line-height: 1.333;
+    font-weight: 100;
+    margin: 0;
+}
+
+.office_hours p{
+    font-size: 18px;
+    font-family: "OpenSans", sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 2;
+}
+.office_days, .location, .phone, .email, .social_media_logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.location img {
+    width: 11px;
+    height: 18px;
+}
+.phone img {
+    width: 18px;
+    height: 18px;
+}
+
+.address_box img {
+    margin-right: 10px;
+}
+
+.address_txt {
+    width: 452px;
+    height: 197px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.social_media_logos {
+    width: 150px;
+    height: 45px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.form_box {
+    width: 570px;
+    height: 320px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+input[type="text"] {
+    width: 274px;
+    height: 60px;
+    background-color: white;
+    border-style: none;
+    border-radius: 2%;
+}
+
+textarea[id="message"] {
+    width: 570px;
+    height: 165px;
+    background-color: white;
+    border-style: none;
+    border-radius: 1%;
+    resize: none;
+}
+
+button[type="submit"] {
+    width: 155px;
+    height: 57px;
+}
+
+.footer {
+    width: 1400px;
+    height: 176px;
+    background-color: #161828;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #696a73;
+    font-family: sans-serif;
+}
+
